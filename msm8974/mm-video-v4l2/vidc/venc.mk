@@ -95,11 +95,13 @@ LOCAL_C_INCLUDES                := $(libmm-venc-inc)
 LOCAL_HEADER_LIBRARIES    := \
         display_headers \
         generated_kernel_headers \
-        copybit_headers \ 
+        copybit_headers \
         gralloc_headers
 
 LOCAL_SHARED_LIBRARIES    := liblog libutils libbinder libcutils \
                              libc2dcolorconvert libdl libgui
+
+LOCAL_SHARED_LIBRARIES  += libqdMetaData
 
 LOCAL_SRC_FILES   := venc/src/omx_video_base.cpp
 LOCAL_SRC_FILES   += venc/src/omx_video_encoder.cpp
