@@ -7,7 +7,7 @@ LOCAL_SRC_FILES := \
 
 LOCAL_CFLAGS += -Wno-error
 
-LOCAL_HEADER_LIBRARIES := display_headers generated_kernel_headers
+LOCAL_HEADER_LIBRARIES := display_headers generated_kernel_headers copybit_headers
 
 LOCAL_SHARED_LIBRARIES := liblog libdl
 

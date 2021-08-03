@@ -113,7 +113,9 @@ LOCAL_C_INCLUDES                += $(libmm-vdec-inc)
 
 LOCAL_HEADER_LIBRARIES  := \
         display_headers \
-        generated_kernel_headers
+        generated_kernel_headers \
+        copybit_headers \
+        gralloc_headers
 
 LOCAL_SHARED_LIBRARIES  := liblog libutils libui libbinder libcutils libdl
 

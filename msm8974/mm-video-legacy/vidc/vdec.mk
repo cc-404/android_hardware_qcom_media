@@ -69,7 +69,7 @@ LOCAL_MODULE_TAGS               := optional
 LOCAL_CFLAGS                    := $(libOmxVdec-def)
 LOCAL_C_INCLUDES                += $(libmm-vdec-inc)
 
-LOCAL_HEADER_LIBRARIES  := generated_kernel_headers
+LOCAL_HEADER_LIBRARIES  := generated_kernel_headers copybit_headers gralloc_headers
 
 LOCAL_HEADER_LIBRARIES  += libnativebase_headers
 
